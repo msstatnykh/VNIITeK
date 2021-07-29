@@ -1,0 +1,148 @@
+@import url(reset.scss);
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.top {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 117px;
+}
+
+.top-left-w {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #092148;
+    width: 197px;
+    height: 44px;
+    vertical-align: middle;
+}
+
+.top-right-w {
+    /*display: inline-block;*/
+    width: 70%;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.top-right-w span {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #9B9B9B;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.top-mail,
+.top-phone,
+.top-location {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    position: relative;
+    display: block;
+}
+
+.top-mail-i img {
+    padding-top: 10px;
+    position: absolute;
+}
+
+.top-mail {
+    padding-left: 45px;
+
+}
+
+.top-phone {
+    padding-left: 24px;
+}
+
+
+
+.top-phone-w {
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+}
+
+.top-phone-i {
+    position: relative;
+}
+
+.top-phone-w span {
+    padding-left: 24px;
+    position: relative;
+    padding-bottom: 2px;
+}
+
+.top-mail-w span {
+    padding-left: 45px;
+}
+
+.top-location-w span {
+    padding-left: 5px;
+}
+
+.top-location-i {
+    padding-top: 10px;
+    position: relative;
+}
+
+.top-location {
+    padding-left: 5px;
+}
+
+.top-mail-w, .top-phone-w, .top-location-w {
+    display: inline-table;
+}
+
+.panel {
+    width: 100%;
+    height: 82px;
+    background-color: #F4F6FB;
+    display: block;
+}
